@@ -1,0 +1,39 @@
+[debug] [2022-02-01T01:17:40.589Z] ----------------------------------------------------------------------
+[debug] [2022-02-01T01:17:40.591Z] Command:       C:\Users\Joel\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\Joel\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2022-02-01T01:17:40.591Z] CLI Version:   9.16.6
+[debug] [2022-02-01T01:17:40.591Z] Platform:      win32
+[debug] [2022-02-01T01:17:40.592Z] Node Version:  v12.18.1
+[debug] [2022-02-01T01:17:40.592Z] Time:          Mon Jan 31 2022 20:17:40 GMT-0500 (Eastern Standard Time)
+[debug] [2022-02-01T01:17:40.592Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-01T01:17:40.598Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-01T01:17:40.598Z] > authorizing via signed-in user (joel@dudasalisbury.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Joel\Documents\tapplist
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-01T01:17:49.865Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-02-01T01:17:50.434Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-02-01T01:17:50.434Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project tapplist (tapplist) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
