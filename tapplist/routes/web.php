@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+// beers/bar
+Route::get('beers/bar', 
+    'App\Http\Controllers\BeerController@bar'
+);
