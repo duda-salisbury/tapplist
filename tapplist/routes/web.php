@@ -23,3 +23,18 @@ Route::get('/', function () {
 Route::get('beers/bar', 
     'App\Http\Controllers\BeerController@bar'
 );
+
+// beers
+Route::get('beers', 
+    'App\Http\Controllers\BeerController@index'
+);
+
+// beers/create
+Route::get('beers/create', 
+    'App\Http\Controllers\BeerController@create'
+);
+
+// beers/store
+Route::post('beers', 
+    'App\Http\Controllers\BeerController@store'
+)->name('beers.store');
