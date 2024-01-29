@@ -80,6 +80,7 @@ class BeerController extends Controller
 
 
         $beer->save();
+        return redirect()->route('beers.create');
 
     }
 
